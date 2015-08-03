@@ -2,7 +2,7 @@ US State Abbreviations and Names
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Mapping between US state abbreviations and names.
+> Maps US state abbreviations to state names.
 
 
 ## Installation
@@ -22,7 +22,7 @@ var table = require( 'datasets-us-states-abbr-names' );
 
 #### table
 
-Mapping between US state two-letter abbreviations and names.
+Maps US state two-letter abbreviations to state names.
 
 ``` javascript
 console.dir( table );

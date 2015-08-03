@@ -1,0 +1,54 @@
+{
+  "name": "datasets-us-states-abbr-names",
+  "version": "0.0.0",
+  "description": "Mapping between US state abbreviations and names.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datasets-io/us-states-abbr-names.git"
+  },
+  "keywords": [
+    "datasets.io",
+    "datasets-io",
+    "datasets",
+    "dataset",
+    "data",
+    "sample",
+    "states",
+    "us",
+    "names",
+    "abbr",
+    "abbreviation",
+ 		"mapping",
+ 		"hash",
+ 		"table"
+  ],
+  "bugs": {
+    "url": "https://github.com/datasets-io/us-states-abbr-names/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
